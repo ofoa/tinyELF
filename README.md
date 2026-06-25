@@ -55,19 +55,13 @@ This version prioritizes minimum executable size over portability.
 Requires NASM:
 
 ```bash
-nasm -f bin -o ant ant.asm
-chmod +x ant
-
-./ant
+nasm -f bin ant.asm -o ant && chmod +x ant && clear && ./ant
 ```
 
 For the minimal version:
 
 ```bash
-nasm -f bin -o ant_min ant_min.asm
-chmod +x ant_min
-
-./ant_min
+nasm -f bin ant_min.asm -o ant_min && chmod +x ant_min && ./ant_min
 ```
 
 ## Technical notes
