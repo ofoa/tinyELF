@@ -13,7 +13,7 @@ The goal is not performance or usability, but exploring how far an x86 Linux pro
 * Hand-written ELF header
 * Direct Linux `int 0x80` syscalls
 * ASCII terminal animation
-* Simulates Langton's Ant for 10500 steps until the highway pattern appears
+* Simulates Langton's Ant for about 11000 steps until the highway pattern appears
 
 ## Files
 
